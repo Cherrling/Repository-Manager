@@ -476,6 +476,10 @@ repos:
     group: deepin-sysdev-team
     info: utilities to build beautiful command lines interfaces
 
+  - repo: clinfo
+    group: deepin-sysdev-team
+    info: Query OpenCL system information
+
   - repo: cloc
     group: deepin-sysdev-team
     info: statistics utility to count lines of code
@@ -4680,6 +4684,10 @@ repos:
     group: deepin-sysdev-team
     info: Regression Test Harness for the OpenJDK platform
 
+  - repo: jupyter-cache #main
+    group: deepin-sysdev-team
+    info: Jupyter notebooks execution cache
+
   - repo: jupyter-comm #main
     group: deepin-sysdev-team
     info: Register a comm implementation in the Jupyter kernel
@@ -5111,6 +5119,10 @@ repos:
   - repo: libcrypt-dh-gmp-perl #main
     group: deepin-sysdev-team
     info: Crypt::DH replacement that uses GMP directly
+
+  - repo: libcrypt-openssl-guess-perl #main
+    group: deepin-sysdev-team
+    info: module for guessing OpenSSL include path
 
   - repo: libcrypt-passwdmd5-perl
     group: deepin-sysdev-team
@@ -6172,6 +6184,10 @@ repos:
     group: deepin-sysdev-team
     info: Lua client for Neovim
 
+  - repo: luametatex #main
+    group: deepin-sysdev-team
+    info: Next generation ConTeXt processing engine
+
   - repo: luceneplusplus
     group: deepin-sysdev-team
     info: secure POP3/IMAP server - Lucene support
@@ -6232,6 +6248,10 @@ repos:
   - repo: mc
     group: deepin-sysdev-team
     info: Midnight Commander - a powerful file manager.
+
+  - repo: mcpp
+    group: deepin-sysdev-team
+    info: Alternative C/C++ preprocessor
 
   - repo: mctc-lib
     group: deepin-sysdev-team
@@ -6442,6 +6462,10 @@ repos:
   - repo: mvdsv
     group: deepin-sysdev-team
     info: a QuakeWorld server 
+
+  - repo: myst-nb #main
+    group: deepin-sysdev-team
+    info: Parse and execute ipynb files in Sphinx
 
   - repo: myst-parser #main
     group: deepin-sysdev-team
@@ -7614,6 +7638,10 @@ repos:
     group: deepin-sysdev-team
     info: HTTP server for pytest to test HTTP clients
 
+  - repo: pytest-jupyter #main
+    group: deepin-sysdev-team
+    info: Pytest plugins for Jupyter libraries and extensions
+
   - repo: pytest-mock #main
     group: deepin-sysdev-team
     info: Thin wrapper around mock for easier use with pytest (Python 3 module)
@@ -7621,6 +7649,10 @@ repos:
   - repo: pytest-mpl #main
     group: deepin-sysdev-team
     info: pytest plugin for Matplotlib image comparison
+
+  - repo: pytest-mypy-testing #main
+    group: deepin-sysdev-team
+    info: Plugin to test mypy output with pytest
 
   - repo: pytest-rerunfailures #main
     group: deepin-sysdev-team
@@ -7658,9 +7690,17 @@ repos:
     group: deepin-sysdev-team
     info: python-arrow is a Python3 library to manipulate dates, times, and timestamps
 
+  - repo: python-asttokens #main
+    group: deepin-sysdev-team
+    info: annotate Python asbtract syntax trees with code references (Python 3)
+
   - repo: python-autocommand #main
     group: deepin-sysdev-team
     info: library to generate argparse parsers from function signatures
+
+  - repo: python-autodoc-traits #main
+    group: deepin-sysdev-team
+    info: Sphinx extension to document classes with Traitlets-based config
 
   - repo: python-autogui
     group: deepin-sysdev-team
@@ -7805,6 +7845,10 @@ repos:
   - repo: python-exceptiongroup #main
     group: deepin-sysdev-team
     info: Backport of PEP 654 (exception groups)
+
+  - repo: python-executing #main
+    group: deepin-sysdev-team
+    info: Inspect Python AST node being executed
 
   - repo: python-exif
     group: deepin-sysdev-team
@@ -7954,6 +7998,10 @@ repos:
     group: deepin-sysdev-team
     info: Linux /proc abstraction classes in Python
 
+  - repo: python-littleutils #main
+    group: deepin-sysdev-team
+    info: Small personal collection of Python utility functions (Python 3)
+
   - repo: python-lunr #main
     group: deepin-sysdev-team
     info: Python implementation of Lunr.js
@@ -8035,6 +8083,10 @@ repos:
     info:
       python-prov is a library for W3C Provenance Data Model supporting PROV-JSON
       and PROV-XML import/export.
+
+  - repo: python-pure-eval #main
+    group: deepin-sysdev-team
+    info: Safely evaluate Python AST nodes without side effects
 
   - repo: python-pynvim
     group: deepin-sysdev-team
@@ -8147,6 +8199,10 @@ repos:
   - repo: python-sphinx-code-include #main
     group: deepin-sysdev-team
     info: include source code from any Sphinx project using only its import path
+
+  - repo: python-stack-data #main
+    group: deepin-sysdev-team
+    info: Better tracebacks for Python
 
   - repo: python-stestr #main
     group: deepin-sysdev-team
@@ -9250,6 +9306,10 @@ repos:
     group: deepin-sysdev-team
     info: A python binding package for generating sitemap
 
+  - repo: sphinxcontrib-github-alt #main
+    group: deepin-sysdev-team
+    info: Sphinx extension to link to GitHub issues, PRs, commits and users
+
   - repo: sphinxcontrib-jquery #main
     group: deepin-sysdev-team
     info: extension to include jQuery on newer Sphinx releases
@@ -9345,6 +9405,10 @@ repos:
   - repo: stress-ng
     group: deepin-sysdev-team
     info: tool to load and stress a computer
+
+  - repo: supertuxkart
+    group: deepin-sysdev-team
+    info: 3D arcade racer with a variety of characters, tracks, and modes to play
 
   - repo: supervisor #main
     group: deepin-sysdev-team
@@ -9672,6 +9736,10 @@ repos:
     group: deepin-sysdev-team
     info: Vulkan tools
 
+  - repo: vulkan-utility-libraries #main
+    group: deepin-sysdev-team
+    info: Vulkan Utility Libraries -- development files
+
   - repo: vulkan-validationlayers
     group: deepin-sysdev-team
     info: Vulkan validation layers
@@ -9882,6 +9950,10 @@ repos:
     group: deepin-sysdev-team
     info: Remote Desktop Protocol (RDP) modules for X.org
 
+  - repo: xpadneo-dkms
+    group: deepin-sysdev-team
+    info: Advanced Linux Driver for Xbox One Wireless Controller (shipped with Xbox One S) 
+
   - repo: xrdp
     group: deepin-sysdev-team
     info: Remote Desktop Protocol (RDP) server
@@ -10065,3 +10137,6 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: checkinstall
+    group: deepin-sysdev-team
+    info: installation tracker
